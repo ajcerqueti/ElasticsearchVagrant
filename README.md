@@ -20,4 +20,6 @@ vagrant up
 
 Once it's up and running, make sure you can reach the [ES server](http://localhost:9200)
 
+Use the *head* plugin [here](http://localhost:9200/_plugin/head/)
+
 Any issue can probably be fixed with a quick ```vagrant provision```
