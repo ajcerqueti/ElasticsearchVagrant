@@ -13,4 +13,4 @@ sudo update-rc.d elasticsearch defaults 95 10
 sudo service elasticsearch start
 
 # install head
-sudo /usr/share/elasticsearch/bin/plugin -install mobz/elasticsearch-head
+#sudo /usr/share/elasticsearch/bin/plugin -install mobz/elasticsearch-head
