@@ -10,11 +10,10 @@ Vagrant.configure("2") do |config|
 
     # Enable ports
     config.vm.network :forwarded_port, guest: 9200, host: 9200
-    config.vm.network :forwarded_port, guest: 9300, host: 9300
 
     # Configure VirtualBox
     config.vm.provider "virtualbox" do |machine|
-        # machine.name = "elasticsearch"
+        machine.name = "elasticsearch"
         machine.memory = 4096
     end
 
