@@ -35,6 +35,3 @@ chmod -R 777 /etc/default/elasticsearch
 sudo /bin/systemctl daemon-reload
 sudo /bin/systemctl enable elasticsearch.service
 sudo /bin/systemctl start elasticsearch.service
-
-# Install head
-#sudo /usr/share/elasticsearch/bin/plugin -install mobz/elasticsearch-head
